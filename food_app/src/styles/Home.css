@@ -1,0 +1,221 @@
+.hero__content {
+     padding-top: 70px;
+}
+
+.hero__title {
+     font-size: 2.5rem;
+     line-height: 55px;
+}
+
+.hero__title span {
+     font-weight: 600;
+     color: #df2020;
+}
+
+.hero__food {
+     font-size: 1.5rem;
+     font-weight: 600;
+     color: #df2020;
+}
+
+.hero__btns button {
+     border: none;
+     outline: none;
+     padding: 7px 20px;
+     border-radius: 10px;
+     cursor: pointer;
+}
+
+.hero__order {
+     background: #df2020;
+     color: #fff;
+     font-weight: 500;
+}
+
+.hero__link {
+     background: transparent;
+     border: 1px solid #df2020 !important;
+}
+
+.hero__link a {
+     text-decoration: none;
+     color: black;
+     font-weight: 500;
+}
+
+.hero__link a:hover {
+     color: black;
+}
+
+.hero__service {
+     color: #212245;
+     font-weight: 600;
+     font-size: 0.9rem;
+}
+
+.here__ship i {
+     padding: 10px;
+     background: #df2020;
+     border-radius: 50%;
+     color: #fff;
+     font-weight: 500 !important;
+}
+
+.home__subtitle {
+     font-size: 2.5rem;
+     color: #df2020;
+     font-weight: 600;
+}
+
+.home__title span {
+     font-size: 2.2rem;
+     color: #df2020;
+     font-weight: 600;
+}
+
+.home__items p {
+     color: #777;
+}
+
+.home__category {
+     background: #df2020;
+     text-align: center;
+     margin-top: 30px;
+     padding: 20px 0;
+     border-radius: 8px;
+}
+
+.home__category button {
+     border: none;
+     outline: none;
+     padding: 7px 20px;
+     background: transparent;
+     color: #fff;
+}
+
+.home__category button img {
+     width: 15px;
+     height: 15px;
+}
+
+.homeBtnActive {
+     background: #fff !important;
+     border-radius: 50px;
+     color: #df2020 !important;
+}
+
+.home__why-title {
+     font-size: 2.5rem;
+     font-weight: 600;
+     color: #df2020;
+     font-family: 'semibold';
+}
+
+.home__why-paragraph {
+     font-size: 1rem;
+     font-weight: 500;
+     color: #777;
+}
+
+.home__fresh {
+     font-size: 1rem;
+     color: #010120;
+     font-weight: 400;
+}
+
+.home__fresh i {
+     font-weight: 500 !important;
+     color: #df2020;
+}
+
+.home__testimonial-subtitle {
+     color: #df2020;
+}
+
+.home__testimonial-title span {
+     color: #df2020;
+}
+
+@media only screen and (max-width: 768px) {
+     .hero__content h5 {
+          font-size: 1rem;
+     }
+
+     .hero__title {
+          font-size: 1.5rem;
+          line-height: 45px;
+     }
+
+
+     .hero__btns button {
+          padding: 5px 15px;
+          font-size: 0.9rem;
+     }
+
+     .hero__service p {
+          font-size: 0.7rem !important;
+     }
+     .home__items p{
+          font-size: 0.9rem;
+     }
+     .home__items h3{
+          font-size: 1.2rem;
+          padding-top: 10px;
+     }
+     .home__subtitle{
+          font-size: 1.7rem;
+     }
+     .home__title{
+          font-size: 1.5rem;
+     }
+     .home__title span{
+          font-size: 1.5rem;
+     }
+     .text-center h2{
+          font-size: 1.5rem;
+     }
+     .home__category{
+          padding: 15px;
+     }
+     .home__category button{
+          padding: 5px 15px;
+          font-size: 0.9rem;
+     }
+     .home__fresh{
+          font-size: 0.8rem;
+     }
+}
+
+@media only screen and (max-width: 576px) {
+     .hero__content {
+          text-align: center;
+     }
+
+     .hero__content h5 {
+          font-size: 1rem;
+     }
+
+     .hero__title {
+          font-size: 1.5rem;
+          line-height: 45px;
+     }
+
+     .hero__btns,
+     .hero__service {
+          justify-content: center;
+     }
+
+     .hero__btns button {
+          padding: 5px 15px;
+          font-size: 0.9rem;
+     }
+     .home__subtitle{
+          font-size: 1.5rem;
+     }
+     .home__title{
+          font-size: 1.4rem;
+     }
+     .home__title span{
+          font-size: 1.4rem;
+     }
+}

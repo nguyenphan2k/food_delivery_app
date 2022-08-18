@@ -1,0 +1,169 @@
+.footer {
+     padding-top: 40px;
+     padding-bottom: 20px;
+     background: #79bdb1;
+}
+
+.footer__logo img {
+     width: calc(100% - 80%);
+     object-fit: contain;
+     margin-bottom: 5px;
+}
+
+.footer__logo h5 {
+     font-size: 1rem;
+     font-weight: 600;
+     margin-bottom: 10px;
+}
+
+.delivery__time-item {
+     background: transparent !important;
+}
+
+.delivery__time-item span {
+     font-weight: 600;
+     font-size: 1rem;
+     color: #e7720c;
+}
+
+.footer__title {
+     font-size: 1.1rem;
+     color: #212245;
+     font-weight: 600;
+}
+
+.footer__paragraph {
+     font-weight: 600;
+     font-size: 1rem;
+     color: #e7720c;
+}
+
+.newsletter {
+     padding: 5px;
+     border: 1px solid #212245;
+     border-radius: 10px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.newsletter input {
+     background: transparent;
+     border: none;
+     outline: none;
+}
+
+.newsletter input:focus {
+     outline: none;
+}
+
+.newsletter input::placeholder {
+     color: #212245;
+}
+
+.newsletter span {
+     padding: 5px 10px;
+     background: #d35f12;
+     border-radius: 20px;
+}
+
+.newsletter span i {
+     color: #fde4e4;
+}
+
+.social__links span i {
+     padding: 6px;
+     background: #110101;
+     color: #fff;
+     border-radius: 50%;
+}
+
+.social__links span a {
+     text-decoration: none;
+}
+
+.copyright__text {
+     font-size: 1.1rem;
+     color: #df2020;
+     font-weight: 400;
+}
+
+@media only screen and (max-width: 768px) {
+     .footer__title {
+          font-size: 0.8rem;
+     }
+
+     .delivery__time-item span {
+          font-size: 0.9rem;
+     }
+
+     .delivery__time-item p {
+          font-size: 0.8rem;
+          margin-bottom: 0;
+     }
+
+     .newsletter input {
+          padding: 10px 7px;
+          font-size: 0.7rem;
+     }
+
+     .newsletter span {
+          font-size: 0.9rem;
+     }
+
+     .copyright__text {
+          font-size: 1rem;
+     }
+
+     .footer__paragraph {
+          font-size: 0.8rem;
+     }
+}
+
+@media only screen and (max-width: 576px) {
+     .copyright__text {
+          font-size: 0.8rem;
+     }
+
+     .social__links p {
+          font-size: 0.8rem;
+     }
+
+     .social__links span {
+          padding: 4px;
+     }
+
+     .social__links {
+          justify-content: center;
+     }
+
+     .social__links span a {
+          font-size: 0.7rem;
+     }
+}
+
+@media only screen and (max-width: 992px) {
+     .footer__title {
+          font-size: 0.9rem;
+     }
+
+     .delivery__time-item span {
+          font-size: 0.9rem;
+     }
+
+     .delivery__time-item p {
+          font-size: 0.8rem;
+          margin-bottom: 0;
+     }
+     .footer__paragraph{
+          font-size: 0.8rem;
+     }
+     .newsletter input {
+          padding: 10px 7px;
+          font-size: 0.7rem;
+     }
+
+     .newsletter span {
+          font-size: 0.9rem;
+     }
+}
