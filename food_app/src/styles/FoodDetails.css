@@ -1,0 +1,135 @@
+.single__product-content{
+     padding-left: 50px;
+}
+.product__price{
+     display: flex;
+     align-items: center;
+     column-gap: 1rem;
+     margin-bottom: 0;
+}
+.product__price span{
+     font-size: 1.6rem;
+}
+.product__category{
+     font-weight: 500;
+     color: #212245;
+     display: flex;
+     align-items: center;
+     column-gap: 1rem;
+     margin-top: 10px;
+}
+.product__category span{
+     padding: 3px 7px;
+     background: #fde4e4;
+     color: #212245;
+     border-radius: 5px;
+}
+.tabs{
+     border-bottom: 1px solid #c6c6cc;
+}
+.tab__content{
+     padding: 30px 0;
+}
+.tabs h6{
+     cursor: pointer;
+}
+.tab__content p{
+     font-size: 0.9rem;
+     color: gray;
+     line-height: 30px;
+}
+.tab__active{
+     color: #df2020;
+}
+.form{
+     width: 60%;
+     margin: auto;
+     background: #da7c11;
+     padding: 20px;
+     border-radius: 5px;
+}
+.form__group{
+     margin-bottom: 20px;
+}
+.form__group input,
+.form__group textarea{
+     width: 100%;
+     padding: 5px 10px;
+     border-radius: 5px;
+     border: none;
+     font-size: 0.8rem;
+}
+.form__group input,
+.form__group textarea:focus{
+     outline: none;
+}
+.review__name{
+     font-weight: 600;
+     color: #212245;
+}
+.review__email{
+     font-size: 0.8rem;
+}
+.feedback__text{
+     color: #212245;
+}
+.img__item img{
+     border: 1 solid black;
+}
+.related__product-title{
+     font-size: 1.4rem;
+}
+@media only screen and (max-width: 768px) {
+     .product__title{
+          font-size: 1.4rem;
+     }
+     .product__price{
+          font-size: 1.1rem;
+     }
+     .product__price span{
+          font-size: 1.1rem;
+     }
+     .product__category,
+     .product__category span{
+          font-size: 0.9rem !important;
+     }
+     .tabs{
+          margin-top: 30px;
+     }
+     .tabs h6{
+          font-size: 0.9rem !important;
+     }
+     .tab__content p{
+          font-size: 0.8rem;
+     }
+     .related__product-title{
+          font-size: 1.2rem !important ;
+          text-align: center;
+     }
+     .review__name,
+     .feedback__text{
+          font-size: 0.8rem !important;
+          font-weight: 600;
+     }
+     .review__email{
+          font-size: 0.7rem !important;
+          font-weight: 500;
+     }
+     .form{
+          width: 100%;
+          margin-top: 30px;
+     }
+     .form__group input::placeholder,
+     .form__group textarea::placeholder{
+          font-size: 0.8rem !important;
+     }
+}
+@media only screen and (max-width: 576px) {
+     .product__images{
+          display: flex;
+          text-align: center;
+     }
+     .product__main-img{
+          margin-bottom: 20px;
+     }
+}

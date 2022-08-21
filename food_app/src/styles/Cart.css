@@ -1,0 +1,28 @@
+th{
+     text-align: center;
+}
+.cart__img-box{
+     width: 60px;
+}
+.cart__img-box img{
+     width: 100%;
+     object-fit: contain;
+}
+.cart__item-detele i{
+     cursor: pointer;
+}
+.product__btn a{
+     text-decoration: none;
+     color: #fff;
+}
+.product__btn a:hover{
+     color: #fff;
+}
+.cart__subtotal{
+     color: #df2020;
+}
+@media only screen and (max-width: 768px) {
+     th, td{
+          font-size: 0.8rem;
+     }
+}

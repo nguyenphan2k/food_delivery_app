@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Container, Row, Col, ListGroup, ListGroupItem } from 'reactstrap'
 import logo from '../../assets/images/res-logo.png'
 import '../../styles/Footer.css'
@@ -6,6 +6,7 @@ import '../../styles/Footer.css'
 import { Link } from 'react-router-dom'
 
 const Footer = () => {
+  const [enterName, setEnterName] = useState('')
   return (
     <footer className='footer'>
       <Container>
@@ -56,7 +57,12 @@ const Footer = () => {
             <h5 className='footer__title'>Social Network</h5>
             <p className='footer__paragraph'>Subscribe your Social Network</p>
             <div className='newsletter'>
-              <input type='email' placeholder='Enter your Email' />
+              <input
+                type='email'
+                placeholder='Enter your Email'
+                onChange={(e) => setEnterName(e.target.value)}
+                required
+              />
               <span><i className='ri-send-plane-line'></i></span>
             </div>
           </Col>
@@ -71,7 +77,7 @@ const Footer = () => {
           <Col lg='6' md='6'>
             <div className='social__links d-flex align-item-center justify-content-end gap-4'>
               <p className='m-0 follow'>Follow:</p>
-              
+
               <span className=''>
                 <Link to='https://www.facebook.com'>
                   <i className='ri-facebook-line'></i>
